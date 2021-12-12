@@ -8,10 +8,15 @@ import (
 )
 
 func NewFX(db *badger.DB) (fxOption fx.Option) {
-	return fx.Provide(func(ctx context.Context, lc fx.Lifecycle) *badger.DB {
+	return fx.Provide(func(lc fx.Lifecycle) *badger.DB {
+		ctx, cancel := context.WithCancel(context.Background())
 		lc.Append(fx.Hook{
 			OnStart: func(_ context.Context) error {
 				go GC(ctx, db)
+				return nil
+			},
+			OnStop: func(c context.Context) error {
+				cancel()
 				return nil
 			},
 		})
