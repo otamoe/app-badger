@@ -30,6 +30,10 @@ func SetDB(v *badger.DB) {
 	DB = v
 }
 
+func Close() error {
+	return DB.Close()
+}
+
 func DefaultOptions() badger.Options {
 	memorySize := GetMemorySize()
 	return badger.DefaultOptions(appconfig.GetString("badger.indexDir")).
