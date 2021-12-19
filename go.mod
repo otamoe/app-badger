@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/dgraph-io/badger/v3 v3.2103.2
-	github.com/otamoe/app-config v0.1.2
-	github.com/otamoe/app-logger v0.1.3
+	github.com/otamoe/app-config v0.1.3
+	github.com/otamoe/app-logger v0.1.4
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/shirou/gopsutil/v3 v3.21.11
 	go.uber.org/fx v1.16.0

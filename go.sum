@@ -246,8 +246,12 @@ github.com/otamoe/app-config v0.1.1 h1:0wqgfWHxdWr3u28a3O05s9LtJny7AXXE5WjX/JdDm
 github.com/otamoe/app-config v0.1.1/go.mod h1:Ki5xxqaTWPiKupNGGJFYmf5T/uQfMHrNk3Q9rfG7rCc=
 github.com/otamoe/app-config v0.1.2 h1:Md/PI7IzhnGMVpwZHvoU/einEM2kNfn+gwPox6aCo+0=
 github.com/otamoe/app-config v0.1.2/go.mod h1:Ki5xxqaTWPiKupNGGJFYmf5T/uQfMHrNk3Q9rfG7rCc=
+github.com/otamoe/app-config v0.1.3 h1:VVTrDWbyQ5notg1PgVBViFnnH4eohqbUtMXIzBdKJGA=
+github.com/otamoe/app-config v0.1.3/go.mod h1:Ki5xxqaTWPiKupNGGJFYmf5T/uQfMHrNk3Q9rfG7rCc=
 github.com/otamoe/app-logger v0.1.3 h1:zETOeNYMbWVHVBBF6CMi6H9HKbhi69sEDhVDG8BER/g=
 github.com/otamoe/app-logger v0.1.3/go.mod h1:q1fazUTKLxYGubg1JfDq1uYsKYnipQhXw+IbSOdjl3U=
+github.com/otamoe/app-logger v0.1.4 h1:8nV0hLOhwoi2OOChauX53pw6a3z9TagIkQVwPYqKxk0=
+github.com/otamoe/app-logger v0.1.4/go.mod h1:xIAQ8qb8iv9zlZ9NdqOyr/SFKrI7JlRfQ8ZEi89GwYA=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
 github.com/pelletier/go-toml v1.9.4 h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM=

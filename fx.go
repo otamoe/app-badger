@@ -8,7 +8,7 @@ import (
 	"go.uber.org/fx"
 )
 
-func NewFX(db *badger.DB) (fxOption fx.Option) {
+func NewFX(db *badger.DB, stop bool) (fxOption fx.Option) {
 	if db == nil {
 		db = GetDB()
 	}
@@ -24,6 +24,9 @@ func NewFX(db *badger.DB) (fxOption fx.Option) {
 			},
 			OnStop: func(c context.Context) error {
 				cancel()
+				if stop {
+					return db.Close()
+				}
 				return nil
 			},
 		})
